@@ -1,0 +1,46 @@
+---
+title: "Wildfires Around the World Dataset"
+author: "Work With Data"
+date: "2025-03-05"
+output: html_document
+---
+## Dataset Description
+
+This dataset contains data on currently happening wildfires. It includes metrics like coordinates, country, total area burned, brightness, and other data points.
+
+### Metadata
+
+**Creator**: NASA  
+**Date Published**: 2025-03-05  
+**Title**: Wildfires Around the World  
+**Identifier**: [DOI Link](https://doi.org/10.7910/DVN/SZZBW3)
+
+### Example of Data Analysis
+
+```{r}
+# Load and view dataset
+data <- read.csv("wildfires_data.csv")
+summary(data)
+
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
